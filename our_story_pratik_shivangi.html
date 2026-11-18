@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#160f1d">
+<title>Our Story — Pratik & Shivangi</title>
+<style>
+:root{--bg:#160f1d;--panel:#211727;--pink:#ff9db7;--cream:#fff4ec;--muted:#c9b8c4;--gold:#f3d39a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% 0%,#49253d 0,#160f1d 48%);color:var(--cream);font-family:Georgia,'Times New Roman',serif}
+.wrap{width:min(920px,92%);margin:auto}.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:70px 0;position:relative;overflow:hidden}
+.eyebrow{font:600 11px/1.5 Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--gold)}
+h1{font-size:clamp(48px,10vw,92px);line-height:.98;margin:24px 0 18px;font-weight:400;letter-spacing:-3px}
+h1 span{color:var(--pink);font-style:italic}.sub{font:15px/1.8 Arial,sans-serif;color:var(--muted);max-width:540px;margin:0 auto}
+.heart{font-size:36px;color:var(--pink);margin:28px 0;animation:pulse 1.8s infinite}
+@keyframes pulse{50%{transform:scale(1.2);text-shadow:0 0 25px #ff8eae}}
+.btn{border:1px solid #d77f9d;color:var(--cream);background:linear-gradient(135deg,#8d3e61,#542a4e);border-radius:999px;padding:15px 25px;font:600 12px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;cursor:pointer;box-shadow:0 10px 30px #0005;transition:.25s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 14px 35px #0008}
+.scroll{position:absolute;bottom:25px;color:var(--muted);font:10px Arial,sans-serif;letter-spacing:3px}
+section{padding:85px 0}.section-title{text-align:center;font-size:clamp(30px,6vw,48px);font-weight:400;margin:12px 0 14px}.lead{text-align:center;color:var(--muted);font:14px/1.8 Arial,sans-serif;max-width:600px;margin:0 auto 42px}
+.card{background:linear-gradient(145deg,#2b1c30dd,#201724dd);border:1px solid #ffffff16;border-radius:22px;padding:28px;box-shadow:0 20px 55px #0003}
+.terminal{font:13px/2 Arial,sans-serif;color:#d9cbd6;max-width:650px;margin:auto}.terminal .green{color:#a8e6bd}.terminal .pink{color:var(--pink)}
+.timeline{max-width:650px;margin:auto;position:relative}.timeline:before{content:"";position:absolute;left:13px;top:8px;bottom:8px;width:1px;background:#a95e7a}
+.event{position:relative;padding:0 0 30px 48px}.dot{position:absolute;left:7px;top:5px;width:13px;height:13px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 5px #ff9db71c}
+.event small{font:11px Arial,sans-serif;letter-spacing:2px;color:var(--gold);text-transform:uppercase}.event h3{font-size:23px;font-weight:400;margin:8px 0}.event p{font:14px/1.7 Arial,sans-serif;color:var(--muted);margin:0}
+.quote{font-size:clamp(25px,5vw,38px);line-height:1.35;text-align:center;color:var(--cream);font-style:italic}.quote span{color:var(--pink)}
+.photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;max-width:650px;margin:auto}.photo{min-height:180px;border:1px dashed #b87991;border-radius:18px;display:grid;place-items:center;text-align:center;padding:18px;color:var(--muted);font:12px/1.7 Arial,sans-serif;background:#ffffff08}.photo strong{display:block;color:var(--pink);font-size:14px;margin-bottom:5px}
+footer{text-align:center;padding:50px 0 65px;color:var(--muted);font:12px/1.8 Arial,sans-serif}.hidden{display:none}.reveal{animation:appear .8s ease both}@keyframes appear{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.modal{position:fixed;inset:0;background:#09060deF;display:none;place-items:center;padding:22px;z-index:5}.modal.show{display:grid}.modal-inner{max-width:570px;text-align:center;padding:38px 28px;background:#281a2b;border:1px solid #a85b7b;border-radius:24px}.modal h2{font-size:38px;font-weight:400;margin:8px 0 20px}.modal p{font:15px/1.9 Arial,sans-serif;color:#e3d4df}.close{margin-top:18px}
+@media(max-width:560px){section{padding:65px 0}.card{padding:22px}.photo-grid{grid-template-columns:1fr}.photo{min-height:140px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap reveal">
+  <div class="eyebrow">A little story · A lifetime of love</div>
+  <h1>Pratik <span>&</span><br>Shivangi</h1>
+  <p class="sub">It started with a simple conversation.<br>And somehow, it became my favourite story.</p>
+  <div class="heart">♥</div>
+  <p class="eyebrow">18 November 2025 — 18 November 2026</p>
+  <p style="margin:30px 0 0"><button class="btn" onclick="document.getElementById('beginning').scrollIntoView({behavior:'smooth'})">Open our story ↓</button></p>
+ </div>
+ <div class="scroll">SCROLL A LITTLE</div>
+</header>
+
+<section id="beginning">
+ <div class="wrap">
+  <div class="eyebrow" style="text-align:center">Chapter 01 · The first connection</div>
+  <h2 class="section-title">One message. A million memories.</h2>
+  <p class="lead">On 18 November 2025, I started talking to you. I didn't know then that this ordinary day would become one of my favourite dates.</p>
+  <div class="card terminal">
+   <div><span class="green">▶ system.boot()</span></div>
+   <div>Initializing something beautiful...</div>
+   <div>Searching for someone special<span class="pink">...</span></div>
+   <div><span class="green">✓ Match found:</span> Shivangi ❤️</div>
+   <div><span class="green">✓ First conversation:</span> 18-11-2025</div>
+   <div><span class="green">✓ Connection:</span> Established</div>
+   <div><span class="green">✓ Current status:</span> <span class="pink">Forever connected</span></div>
+   <div style="margin-top:12px;color:#9d8799">// No disconnect button available. And I don't want one.</div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="eyebrow" style="text-align:center">Chapter 02 · Our timeline</div>
+  <h2 class="section-title">From hello to forever</h2>
+  <p class="lead">Every great story has milestones. These are a few chapters in ours.</p>
+  <div class="timeline">
+   <div class="event"><i class="dot"></i><small>18 November 2025</small><h3>The first hello</h3><p>A simple conversation that quietly changed the direction of my life.</p></div>
+   <div class="event"><i class="dot"></i><small>More conversations, more memories</small><h3>Getting to know you</h3><p>Messages turned into smiles, calls, laughter and a bond that kept growing.</p></div>
+   <div class="event"><i class="dot"></i><small>Our special day</small><h3>Two hearts, one promise</h3><p>Our story became a beautiful journey we get to live together.</p></div>
+   <div class="event"><i class="dot"></i><small>18 November 2026</small><h3>One year since that first hello</h3><p>Today, I get to call my favourite person my wife. Best upgrade ever. ❤️</p></div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="eyebrow" style="text-align:center">Chapter 03 · A little reminder</div>
+  <div class="card" style="max-width:720px;margin:auto;padding:42px 26px">
+   <p class="quote">“I've written a lot of code, fixed a lot of bugs, and built many things… but <span>you are the best thing</span> that ever happened to me.”</p>
+   <p style="text-align:center;color:var(--gold);font:11px Arial,sans-serif;letter-spacing:2px;margin:28px 0 0">— YOUR IT-GEEK HUSBAND</p>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="eyebrow" style="text-align:center">Chapter 04 · Our memories</div>
+  <h2 class="section-title">The moments I keep close</h2>
+  <p class="lead">Replace these spaces with your favourite photos together. The best part of this website is the memories only you two share.</p>
+  <div class="photo-grid">
+   <div class="photo"><div><strong>📸 Our first favourite photo</strong>Add a photo in this spot</div></div>
+   <div class="photo"><div><strong>💍 A day to remember</strong>Add your engagement photo</div></div>
+   <div class="photo"><div><strong>❤️ The wedding day</strong>Add your wedding photo</div></div>
+   <div class="photo"><div><strong>✨ Just us being us</strong>Add a candid photo</div></div>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:35px">
+ <div class="wrap" style="text-align:center">
+  <div class="eyebrow">Final chapter · But never the end</div>
+  <h2 class="section-title">One year down.<br><span style="color:var(--pink);font-style:italic">Forever to go.</span></h2>
+  <p class="lead">Ready for the most important message?</p>
+  <button class="btn" onclick="document.getElementById('loveModal').classList.add('show')">Run the love.exe ❤️</button>
+ </div>
+</section>
+
+<footer>
+ <div style="font-size:25px;color:var(--pink);margin-bottom:10px">♥</div>
+ Made with love, a little code, and a lot of feelings.<br>
+ Pratik + Shivangi · Version 1.0 · Forever in progress
+</footer>
+
+<div class="modal" id="loveModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="if(event.target===this)this.classList.remove('show')">
+ <div class="modal-inner reveal">
+  <div class="heart" style="margin:0">♥</div>
+  <h2 id="modalTitle">Hey, my love…</h2>
+  <p>One year ago, I just wanted to talk to you. Today, I get to do life with you.</p>
+  <p>As an IT guy, I can promise updates, support and lifetime maintenance. But this heart? It's already yours — no renewal, no subscription, no expiry. ❤️</p>
+  <p><strong style="color:var(--pink)">I love you, Shivangi. Happy one year of our first conversation!</strong></p>
+  <button class="btn close" onclick="document.getElementById('loveModal').classList.remove('show')">Close with a hug</button>
+ </div>
+</div>
+</body>
+</html>
